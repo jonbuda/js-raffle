@@ -1,0 +1,81 @@
+html {
+  height: 100%;
+  background: #000;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#222), color-stop(70%,#000000)) no-repeat; /* webkit */
+}
+
+body {
+  width: 1024px;
+  margin: 35px auto;
+  color: #fff;
+}
+
+header {
+  color: #eee;
+  font-size: 2.5em;
+  border-bottom: 1px solid #444;
+  margin-bottom: 2em;
+  padding-bottom: .5em;
+  line-height: 1.5em;
+}
+
+header h1 {
+  text-shadow: #000 2px 2px 0;
+}
+
+header h1 em {
+  color: #999;
+  font-weight: normal;
+  font-family: Georgia;
+  font-size: .50em;
+  text-shadow: #000 1px 1px 0;
+}
+
+#winners {
+  padding-top: 1.5em;
+  font-size: 1.25em;
+  float: left;
+  width: 35%;
+}
+
+#winners ol {
+  margin-top: 1em;
+  color: #999;
+}
+
+#winners ol li {
+  line-height: 1.75em;
+}
+
+#chooser {
+  font-size: 3.5em;
+  float: left;
+  width: 60%;
+}
+
+#chooser h1 {
+  margin-bottom: 1em;
+}
+
+button#chooseit {
+  font-weight: bold;
+  font-family: Arial;
+  text-transform: uppercase;
+  text-align: center;
+  border: 1px solid #666;
+  border-top: 1px solid #888;
+  font-size: .5em;
+  color: #ddd;
+  padding: 15px 30px;
+  background: #333;
+  -webkit-border-radius: 1em;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666), to(#444)); 
+  text-shadow: 0 1px 2px rgba(0,0,0, 0.90);
+  -webkit-box-shadow: 0 0px 15px rgba(255, 255, 255, 0.3); 
+  -webkit-transition: all .2s ease-out;
+}
+
+button#chooseit:hover {
+  color: #fff;
+  -webkit-box-shadow: 0 0px 20px rgba(255, 255, 255, 0.5); 
+}
