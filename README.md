@@ -1,4 +1,4 @@
-# The Raffle O' Matic
+# The Raffle-O-Matic
 
 * Simple system to raffle out prizes.
 * Picks a winner at random out of an array.
